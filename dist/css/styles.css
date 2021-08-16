@@ -563,6 +563,30 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+@font-face {
+  font-family: Oswald;
+
+  src: url(/dist/fonts/Oswald/Oswald-Bold.ttf) format("truetype");
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .container {
   width: 100%;
 }
